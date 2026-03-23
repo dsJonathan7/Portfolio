@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan Da Silveira | Portfolio</title>
+    <meta name="description" content="Portfolio profesional de Jonathan Da Silveira, Analista en Sistemas y Desarrollador Junior enfocado en .NET, APIs, desarrollo web y mobile."/>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <!-- Barra de progreso de scroll -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                Jonathan<span>DS</span>
+            </a>
+
+            <div class="nav-controls">
+                <a href="./assets/cv/CV.pdf" class="btn btn-outline nav-cv-btn" download>
+                    Descargar CV
+                </a>
+
+                <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                    <span id="theme-icon">🌙</span>
+                </button>
+
+                <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+                    ☰
+                </button>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Inicio</a></li>
+                    <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                    <li><a href="#tech" class="nav-link">Tecnologías</a></li>
+                    <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text reveal">
+
+                    <p class="hero-tag">Portfolio profesional</p>
+                    <h1>Jonathan Da Silveira</h1>
+                    <h2>Analista en Sistemas <span>|</span> Desarrollador Junior .NET</h2>
+                    <p class="hero-description">
+                        Me especializo en el desarrollo de APIs, aplicaciones web y mobile,
+                        construyendo proyectos reales con foco en buenas prácticas, aprendizaje
+                        continuo y crecimiento profesional.
+                    </p>                  
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+                        <a href="./assets/cv/CV.pdf" class="btn btn-outline" download>Descargar CV</a>
+                        <a href="#contact" class="btn btn-contact">Contacto</a>
+                    </div>
+
+                </div>
+
+                <div class="hero-image reveal">
+                    <div class="hero-image-wrapper hero-placeholder">
+                        <div class="hero-placeholder-content">
+                            <span class="hero-placeholder-initials">JD</span>
+                            <p>Analista en Sistemas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Conoceme un poco más</p>
+                    <h2 class="section-title">Sobre mí</h2>
+                </div>
+
+                <div class="about-content reveal">
+                    <div class="about-card">
+                        <p>
+                            Soy Analista en Sistemas recientemente recibido, con experiencia en
+                            desarrollo de aplicaciones web y móviles utilizando C#, .NET,
+                            .NET MAUI, Flutter y bases de datos SQL.
+                        </p>
+
+                        <p>
+                            Me interesa construir soluciones reales, aplicar buenas prácticas y
+                            seguir aprendiendo tecnologías modernas mientras desarrollo proyectos
+                            sólidos para mi portfolio profesional.
+                        </p>
+
+                        <p>
+                            Actualmente estoy enfocado en mostrar proyectos como
+                            <strong>MascotasApp</strong> y <strong>NextGameList</strong>,
+                            buscando una primera oportunidad laboral en el área IT donde pueda
+                            aportar, aprender y crecer profesionalmente.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights">
+                        <article class="about-highlight">
+                            <h3>Enfoque</h3>
+                            <p>.NET, APIs, desarrollo web y mobile.</p>
+                        </article>
+
+                        <article class="about-highlight">
+                            <h3>Formación</h3>
+                            <p>Analista en Sistemas recientemente recibido.</p>
+                        </article>
+
+                        <article class="about-highlight">
+                            <h3>Objetivo</h3>
+                            <p>Conseguir mi primera oportunidad profesional en IT.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tecnologías -->
+        <section class="tech section" id="tech">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Stack principal</p>
+                    <h2 class="section-title">Tecnologías</h2>
+                </div>
+
+                <div class="tech-grid">
+                    <article class="tech-card reveal">
+                        <h3>C#</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/csharp.svg" alt="Logo de C#" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>.NET</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/dotnetcore.svg" alt="Logo de .NET" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>MAUI</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/maui.svg" alt="Logo de MAUI" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>SQL</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/sql-server-light.svg"
+                                class="tech-icon-img icon-light"
+                                alt="Logo SQL Server">
+
+                            <img src="./assets/icons/sql-server-dark.svg"
+                                class="tech-icon-img icon-dark"
+                                alt="Logo SQL Server">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>MySQL</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/mysql.svg" alt="Logo de MySQL" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>HTML</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/html5.svg" alt="Logo de HTML" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>CSS</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/cssl.svg" alt="Logo de CSS" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>JavaScript</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/javascript.svg" alt="Logo de JavaScript" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>Java</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/java.svg" alt="Logo de Java" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>Git</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/git.svg" alt="Logo de Git" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>GitHub</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/github-light.svg"
+                                class="tech-icon-img icon-light"
+                                alt="Logo GitHub">
+
+                            <img src="./assets/icons/github-dark.svg"
+                                class="tech-icon-img icon-dark"
+                                alt="Logo GitHub">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>Python</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/python.svg" alt="Logo de Python" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>VS Code</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/vscode.svg" alt="Logo de VS Code" class="tech-icon-img">
+                        </div>
+                    </article>
+
+                    <article class="tech-card reveal">
+                        <h3>Visual Studio</h3>
+                        <div class="tech-icon-wrapper">
+                            <img src="./assets/icons/visualstudio.svg" alt="Logo de Visual Studio" class="tech-icon-img">
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Trabajo destacado</p>
+                    <h2 class="section-title">Proyectos</h2>
+                </div>
+
+                <div class="projects-layout">
+                    <!-- MascotasApp -->
+                    <article class="project-card featured-project featured-project-vertical reveal">
+                        <div class="project-text">
+                            <p class="project-label">Proyecto académico grupal</p>
+                            <h3>MascotasApp</h3>
+
+                            <p class="project-description">
+                                Plataforma desarrollada como proyecto final, compuesta por backend,
+                                aplicación web y app mobile. Incluye gestión de mascotas,
+                                publicaciones, usuarios, mapa interactivo y funcionalidades
+                                orientadas a usuarios comunes, refugios, veterinarias y administradores.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>C#</span>
+                                <span>.NET</span>
+                                <span>.NET MAUI</span>
+                                <span>SQL Server</span>
+                                <span>Google Maps</span>
+                                <span>Web + Mobile</span>
+                            </div>
+
+                            <!-- <div class="project-buttons">
+                                <a href="#" class="btn btn-primary">Ver demo</a>
+                            </div> -->
+                        </div>
+
+                        <div class="project-gallery project-carousel">
+                            <div class="carousel-view">
+                                <button class="carousel-btn carousel-btn-prev" id="mascotas-prev" aria-label="Imagen anterior">
+                                    ‹
+                                </button>
+
+                                <div class="carousel-image-wrapper">
+                                    <img
+                                        id="mascotas-carousel-image"
+                                        src="./assets/images/mascotasapp-web-home.png"
+                                        alt="MascotasApp web veterinaria"
+                                    >
+                                </div>
+
+                                <button class="carousel-btn carousel-btn-next" id="mascotas-next" aria-label="Imagen siguiente">
+                                    ›
+                                </button>
+                            </div>
+
+                            <div class="carousel-footer">
+                                <p class="carousel-caption" id="mascotas-caption">Web veterinaria</p>
+                                <span class="carousel-counter" id="mascotas-counter">1 / 4</span>
+                            </div>
+                            <p class="carousel-caption">Código disponible para revisión técnica a solicitud</p>
+                        </div>
+                    </article>
+                    <!-- NextGameList -->
+                    <article class="project-card featured-project-vertical reveal">
+                        <div class="project-text">
+                            <p class="project-label">Proyecto personal</p>
+                            <h3>NextGameList</h3>
+
+                            <p class="project-description">
+                                API backend orientada a una plataforma de videojuegos, desarrollada
+                                como proyecto personal para portfolio. Permite gestionar usuarios,
+                                listas personalizadas, reviews, comentarios y publicaciones,
+                                integrando datos de videojuegos desde una API externa.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>.NET</span>
+                                <span>Clean Architecture</span>
+                                <span>REST API</span>
+                                <span>RAWG API</span>
+                                <span>Swagger</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-primary">GitHub</a>
+                                <a href="#" class="btn btn-outline">API Docs</a>
+                            </div>
+                        </div>
+
+                        <div class="project-image project-image-swagger">
+                            <img src="./assets/images/nextgamelist-swagger.png" alt="Captura de Swagger de NextGameList">
+                        </div>
+
+                        <div class="project-future">
+                            <h4>Próxima etapa</h4>
+                            <p>
+                                El siguiente paso del proyecto es desarrollar un frontend web y una app mobile
+                                donde cada usuario pueda gestionar su propia lista de juegos, explorar títulos,
+                                escribir reviews, participar en publicaciones y navegar una experiencia inspirada
+                                en plataformas como MyAnimeList, pero adaptada al mundo gaming con una identidad visual propia.
+                            </p>
+                        </div>
+
+                        <div class="project-gallery project-carousel small-carousel">
+                            <div class="carousel-view">
+                                <button class="carousel-btn carousel-btn-prev" id="nextgamelist-prev" aria-label="Imagen anterior">
+                                    ‹
+                                </button>
+
+                                <div class="carousel-image-wrapper small-carousel-wrapper">
+                                    <img
+                                        id="nextgamelist-carousel-image"
+                                        src="./assets/images/nextgamelist-home.png"
+                                        alt="NextGameList home"
+                                    >
+                                </div>
+
+                                <button class="carousel-btn carousel-btn-next" id="nextgamelist-next" aria-label="Imagen siguiente">
+                                    ›
+                                </button>
+                            </div>
+
+                            <div class="carousel-footer">
+                                <p class="carousel-caption" id="nextgamelist-caption">Home conceptual</p>
+                                <span class="carousel-counter" id="nextgamelist-counter">1 / 3</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Hablemos</p>
+                    <h2 class="section-title">Contacto</h2>
+                </div>
+
+                <div class="contact-grid reveal">
+                    <div class="contact-card contact-info-card">
+                        <h3>¿Te interesa mi perfil?</h3>
+                        <p>
+                            Estoy buscando mi primera oportunidad profesional en IT. Si querés
+                            conocer más sobre mi perfil, mis proyectos o ponerte en contacto
+                            conmigo, acá te dejo mis medios principales.
+                        </p>
+
+                        <div class="contact-info-list">
+                            <a href="mailto:dasilveirajonathan7@gmail.com" class="contact-item">
+                                <span class="contact-icon">✉</span>
+                                <span>dasilveirajonathan7@gmail.com</span>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/Jonathan-da-silveira" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <span class="contact-icon">in</span>
+                                <span>LinkedIn</span>
+                            </a>
+                            
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <span class="contact-icon">GH</span>
+                                <span>GitHub</span>
+                            </a>
+
+                            <div class="contact-item contact-item-static">
+                                <span class="contact-icon">📍</span>
+                                <span>Montevideo, Uruguay</span>
+                            </div>
+                        </div>
+
+                        <a href="./assets/cv/CV.pdf" class="btn btn-primary contact-cv-btn" download>
+                            Descargar CV
+                        </a>
+                    </div>
+
+                    <div class="contact-card contact-form-card">
+                        <h3>Enviame un mensaje</h3>
+                        <p>
+                            Podés escribirme directamente desde acá. Se abrirá tu cliente de correo con el mensaje preparado.
+                        </p>
+
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="contact-name">Nombre</label>
+                                <input type="text" id="contact-name" name="name" required placeholder="Tu nombre">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email">Email</label>
+                                <input type="email" id="contact-email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message">Mensaje</label>
+                                <textarea id="contact-message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">
+                                Enviar email
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="footer-main">
+                © 2026 Jonathan Da Silveira. Todos los derechos reservados.
+            </p>
+
+            <p class="footer-sub">
+                Analista en Sistemas | Portfolio desarrollado con HTML, CSS y JavaScript.
+            </p>
+
+            <div class="footer-links">
+                <a href="mailto:dasilveirajonathan7@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/Jonathan-da-silveira" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
